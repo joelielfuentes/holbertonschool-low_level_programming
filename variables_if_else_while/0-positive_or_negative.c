@@ -2,31 +2,26 @@
 #include <stdlib.h>
 #include <time.h>
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
 int main(void)
 {
     int n;
 
-    srand(time(0));
+    srand((unsigned int)time(NULL));
     n = rand() - RAND_MAX / 2;
 
-    printf("El número es %d\n", n);
+    printf("%d is ", n);
 
     if (n > 0)
     {
-        printf("es positivo\n");
+        printf("positive\n");
     }
     else if (n == 0)
     {
-        printf("es cero\n");
+        printf("zero\n");
     }
     else
     {
-        printf("es negativo\n");
+        printf("negative\n");
     }
 
     return (0);
