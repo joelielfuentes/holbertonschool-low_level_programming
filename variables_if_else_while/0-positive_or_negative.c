@@ -4,9 +4,8 @@
 
 int main() {
     int n;
-    srand((unsigned int)time(NULL)); // Inicializar el generador de números aleatorios
-
-    n = rand() - RAND_MAX / 2; // Generar un número aleatorio dentro del rango de enteros
+    srand((unsigned int)time(NULL));
+    n = rand() - RAND_MAX / 2;
 
     printf("El número es %d\n", n);
 
@@ -19,4 +18,3 @@ int main() {
     }
 
     return 0;
-}
