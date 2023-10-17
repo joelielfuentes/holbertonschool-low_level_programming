@@ -1,16 +1,20 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    int number = 0;
+    int num;
 
-    while (number < 10)
+    for (num = 0; num <= 9; num++)
     {
-        printf("%d", number);
-        number++;
+        putchar(num + '0');
     }
-    
-    printf("\n"); /* Print a new line after all the numbers. */
+
+    putchar('\n');
 
     return (0);
 }
