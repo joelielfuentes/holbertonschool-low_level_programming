@@ -6,9 +6,11 @@ int main(void)
 
     while (number < 10)
     {
-        printf("%d\n", number);
+        printf("%d", number);
         number++;
     }
+    
+    printf("\n"); // Print a new line after all the numbers.
 
     return (0);
 }
