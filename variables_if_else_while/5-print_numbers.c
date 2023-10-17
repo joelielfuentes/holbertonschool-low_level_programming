@@ -10,7 +10,7 @@ int main(void)
         number++;
     }
     
-    printf("\n"); // Print a new line after all the numbers.
+    printf("\n"); /* Print a new line after all the numbers. */
 
     return (0);
 }
